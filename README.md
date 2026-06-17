@@ -1,5 +1,7 @@
 # Awesome Real-Time Social Media Monitoring [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![License: MIT](https://img.shields.io/github/license/SisoSol/awesome-realtime-social-monitoring?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/SisoSol/awesome-realtime-social-monitoring?style=flat-square)](https://github.com/SisoSol/awesome-realtime-social-monitoring/commits) [![CI](https://github.com/SisoSol/awesome-realtime-social-monitoring/actions/workflows/ci.yml/badge.svg)](https://github.com/SisoSol/awesome-realtime-social-monitoring/actions/workflows/ci.yml) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/SisoSol/awesome-realtime-social-monitoring/pulls)
+
 > A curated list of APIs, tools, and techniques for monitoring social media
 > **in real time** — pushing posts as they happen over WebSocket/streaming
 > instead of polling REST endpoints on an interval.
