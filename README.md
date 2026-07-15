@@ -17,6 +17,7 @@ first few seconds decide everything.
 - [The latency problem with polling](#the-latency-problem-with-polling)
 - [Platforms & their official real-time support](#platforms--their-official-real-time-support)
 - [APIs & services](#apis--services)
+- [Comparisons & alternatives](#comparisons--alternatives)
 - [Example code](#example-code)
 - [Techniques](#techniques)
 - [Reading](#reading)
@@ -44,11 +45,15 @@ newsroom alerts — polling is structurally too slow.
   [Twitter streaming API alternatives](https://1322.io/blog/twitter-streaming-api-alternatives).
 - **Instagram** — the Graph API has **no** real-time post firehose for arbitrary
   public accounts. See
-  [Instagram monitoring without the official API](https://1322.io/blog/instagram-monitoring-without-official-api).
+  [Instagram monitoring without the official API](https://1322.io/blog/instagram-monitoring-without-official-api)
+  and [how to track Instagram stories in real time](https://1322.io/blog/instagram-story-tracker)
+  (stories expire in 24h, so capture-as-posted is the only option).
 - **Truth Social** — no official developer API at all. See
-  [Truth Social API guide](https://1322.io/blog/truth-social-api-guide).
+  [Truth Social API guide](https://1322.io/blog/truth-social-api-guide)
+  and [tracking Trump's Truth Social posts](https://1322.io/track/trump-truth-social).
 - **Binance Square** — no official post-stream API. See
-  [Binance Square API guide](https://1322.io/blog/binance-square-api-guide).
+  [Binance Square API guide](https://1322.io/blog/binance-square-api-guide)
+  and [Binance Square trading signals](https://1322.io/use-cases/binance-square-signals).
 - **YouTube** — Data API v3 is poll-only and quota-limited; WebSub (PubSubHubbub)
   pings are best-effort (no delivery guarantee — drops, delays, dupes, no replay),
   cover uploads only, and you host/renew the callback yourself.
@@ -65,6 +70,16 @@ newsroom alerts — polling is structurally too slow.
   table above).
 - **Self-hosted scrapers** — full control, but you own the proxies, the breakage,
   and the latency.
+
+## Comparisons & alternatives
+
+Honest, side-by-side breakdowns of the named services in this space (each keeps
+the competitor in the table — limits and strengths both):
+
+- [Twitter (X) API alternatives](https://1322.io/compare/twitter-api-alternatives) — official X API v2 vs TweetStream vs TwitterAPI.io vs 1322
+- [TweetStream alternative](https://1322.io/alternatives/tweetstream) · [TwitterAPI.io alternative](https://1322.io/alternatives/twitterapi-io) · [Tweet Catcher alternative](https://1322.io/alternatives/tweet-catcher) · [Data365 alternative](https://1322.io/alternatives/data365)
+- [Best crypto Twitter monitoring tools](https://1322.io/blog/best-crypto-twitter-monitoring-tools) — the crypto-desk roundup
+- [Twitter to Discord bot](https://1322.io/blog/twitter-to-discord-bot) — piping tracked accounts into a Discord channel
 
 ## Example code
 
