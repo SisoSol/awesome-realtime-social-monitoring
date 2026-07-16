@@ -66,6 +66,10 @@ newsroom alerts — polling is structurally too slow.
 - **[1322](https://1322.io)** — one WebSocket across X, Instagram, Truth Social,
   Binance Square, YouTube, and news; normalized JSON events, sub-second X
   delivery. ([pricing](https://1322.io/pricing) · [docs](https://1322.io/docs))
+- **[Xquik](https://docs.xquik.com)** - X/Twitter API with account and keyword
+  monitors, HMAC-signed webhooks, and event history for webhook-backed alerts.
+  ([workflows](https://docs.xquik.com/guides/workflows) ·
+  [webhooks](https://docs.xquik.com/api-reference/webhooks/create))
 - **Official platform APIs** — authoritative but mostly poll-based / gated (see
   table above).
 - **Self-hosted scrapers** — full control, but you own the proxies, the breakage,
